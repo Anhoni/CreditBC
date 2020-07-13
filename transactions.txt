@@ -1,8 +1,0 @@
-1234	soni	ankit	23
-1235	soni	ankit	23
-1236	soni	ankit	26
-1237	Soni	Ankit	10
-1238	Rajguru	Ankit	17
-1239	Savita Soni	Ankit soni	25000
-1240	Savita soni	Ankit soni	4500
-1241	som	No	som

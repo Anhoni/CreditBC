@@ -1,5 +1,6 @@
 from transaction import trans
-from creditscore import score
+from creditscore import Score
+
 
 class block:
     """this class define block that will be created by both transaction and creditscore"""
@@ -17,8 +18,8 @@ class block:
         __tTranWrite = open("transactions.txt", "a+")
         __tTranWrite.write("\n" + __currentTransaction.returnTransaction())
         __tTranWrite.close()
-        __blockWrite = open("Blocks.txt","a")
+        __blockWrite = open("Blocks.txt", "a")
         __blockWrite.write("\n" + str(self.blockhash))
     def Blockhash(self):
-        return  self.blockhash
+        return self.blockhash
 

@@ -7,7 +7,7 @@ class trans:
         self.tamount = input("Enter amount: ")
 
     def returnTransaction(self):
-        return str(self.tid) +"\t" + self.treciver +"\t" + self.tsender +"\t" + self.tamount
+        return str(self.tid) + "\t" + self.treciver + "\t" + self.tsender + "\t" + self.tamount
 
 
 
