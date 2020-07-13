@@ -1,0 +1,6 @@
+1	100	Ankit	Saikheda
+2	85	Soni	makronia
+3	48	ramu	saikheda
+4	55	arun	saikheda
+5	67	anu	sagar
+6	88	tau	saga

@@ -9,5 +9,9 @@ class trans:
     def returnTransaction(self):
         return str(self.tid) + "\t" + self.treciver + "\t" + self.tsender + "\t" + self.tamount
 
+    def Genesis(self):
+        __transactionfile = open("transactions.txt","a+")
+        __transactionfile.write("1" + "\t" + "Origin" + "\t" + "Creator" + "\t" + "1.00")
+
 
 

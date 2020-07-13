@@ -1,5 +1,4 @@
 from transaction import trans
-from creditscore import Score
 
 
 class block:
@@ -8,6 +7,8 @@ class block:
         __tTranRead = open("transactions.txt", "r")
         __allTrans = __tTranRead.readlines()
         __tTranRead.close()
+        if len(__allTrans) == 0:
+            trans.Genesis(trans)
         self.previous = __allTrans
         __newID = __allTrans[len(__allTrans) - 1]
         __newID = int(__newID.partition("\t")[0]) + 1
