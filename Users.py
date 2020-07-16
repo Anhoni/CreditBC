@@ -1,9 +1,9 @@
 class Users:
-    def __init__(self):
-        self.userid = input("Enter Userid : ")
+    def __init__(self, uid):
+        self.userid = uid
         self.score = input("Initial credit score: ")
         self.name = input("Enter name of the User: ")
-        self.address = input("Enter billing address")
+        self.address = input("Enter billing address: ")
         __userfile = open("users.txt", "a+")
         __userfile.write("\n" + str(self.userid) + "\t" + str(self.score) + "\t" + self.name + "\t" + self.address)
         __userfile.close()
